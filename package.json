@@ -1,0 +1,34 @@
+{
+  "type": "module",
+  "name": "kambaz-node-server-app",
+  "version": "1.0.0",
+  "description": "Node.js HTTP Web Server for the Kambaz application",
+  "keywords": [
+    "Node",
+    "REST",
+    "Server",
+    "HTTP",
+    "Web",
+    "Development",
+    "CS5610"
+  ],
+  "homepage": "https://github.com/svaibhav07codez/kambaz-react-web-app#readme",
+  "bugs": {
+    "url": "https://github.com/svaibhav07codez/kambaz-react-web-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svaibhav07codez/kambaz-react-web-app.git"
+  },
+  "license": "ISC",
+  "author": "Vaibhav Sankaran",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "uuid": "^11.1.0"
+  }
+}
